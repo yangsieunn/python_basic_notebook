@@ -85,8 +85,8 @@ elif menu_num == 4:  # 음료
     menu_save["drink"] = drink_name[menu_num]
     price_save["drink"] = drink_price[menu_num]
 
-print(menu_save)
-print(price_save)
+# print(menu_save)
+# print(price_save)
 
 ##########################
 # 5.주문 메뉴 출력 및 계산 #
