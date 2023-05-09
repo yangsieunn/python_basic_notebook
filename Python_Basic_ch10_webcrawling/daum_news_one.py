@@ -29,9 +29,9 @@ url = "https://v.daum.net/v/20230509090530015"  # 수집 할 페이지 주소
 result = requests.get(url)
 
 
-# 웹 브라우저                                 다음 서버
-#               requset -------->
-#                       <-------- response
+# 웹 브라우저                                다음 서버
+#              requset -------->
+#                      <-------- response
 # response[200]: success
 # response[400~500]: fail
 # print(result)
